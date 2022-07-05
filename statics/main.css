@@ -108,13 +108,22 @@ body {
     margin: 0px 0px 5px;
 }
 
+.body-contac {
+    background: url(/img/texture-grey.jpg) no-repeat;
+    background-size: cover;
+}
+
 .formcontact.needs-validation {
     width: 100%;
     height: 500px;
     background: #007495;
-    background: url(/img/Nature.jpg) no-repeat;
+    background: url(/img/fram-picnics.jpg) no-repeat;
     background-size: cover;
+    color: white;
+    font-size: 25px;
 }
+
+
 
 .formcontact2 {
     margin: auto;
