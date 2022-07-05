@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <title>Proyecto Jquery</title>
+    <link rel="stylesheet" href="statics/main.css">
+    <script src="statics/main.js" defer></script>
+</head>
+
+<body class="">
+    <div class="main-container container">
+        <!--NavBar-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-warning">
+            <a class="navbar-brand" href="#"><img src="img/llama1.png" class="logo" alt="" width="40px"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">About Us</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="contact.html">Contact Us</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="login.html">Log in</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </div>
+        </nav>
+
+        <!--Ventana Modal-->
+        <!-- Modal -->
+        <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1"
+            aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="staticBackdropLabel">Api Random</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body" id="modal-body">
+                        
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <!--<button type="button" class="btn btn-primary">Understood</button>-->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal -->
+
+        <!-- Carousel-->
+        <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleCaptions" data-slide-to="0"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="2" class="active"></li>
+            </ol>
+
+            <div class="carousel-inner">
+                <div class="carousel-item active" id="" onclick="">
+                    <img src="img/Paris.jpg" class="d-block w-100" alt="..." width="620px;" height="450px;">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 class="title">First slide label</h5>
+                        <p class="parrafos">Some representative placeholder content for the first slide.</p>
+                        <button type="button" class="boton-api btn btn-primary" data-toggle="modal" data-target="#staticBackdrop">
+                            Ver Api
+                        </button>
+                    </div>
+                </div>
+                <div class="carousel-item" id="" onclick="">
+                    <img src="img/milleneals.png" class="d-block w-100" alt="..." width="620px;" height="450px;">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 class="title">Second slide label</h5>
+                        <p class="parrafos">Some representative placeholder content for the second slide.</p>
+                        <button type="button" class="boton-api btn btn-primary" data-toggle="modal" data-target="#staticBackdrop">
+                            Ver Api
+                        </button>
+                    </div>
+                </div>
+                <div class="carousel-item" id="" onclick="">
+                    <img src="img/ciudades-de-malta.jpg" class="d-block w-100" alt="..." width="620px;" height="450px;">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 class="title">Third slide label</h5>
+                        <p class="parrafos">Some representative placeholder content for the third slide.</p>
+                        <button type="button" class="boton-api btn btn-primary" data-toggle="modal" data-target="#staticBackdrop">
+                            Ver Api
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-target="#carouselExampleCaptions"
+                data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-target="#carouselExampleCaptions"
+                data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </button>
+        </div>
+        <div class="container users">
+            <div class="row">
+                <div class="col-4 center">
+                    <img src="img/team.png" alt="" class="img-3">
+                    <div id="myForm1" class="myForm1">
+                        <h5 class="transition">User Name</h5>
+                        <P class="transition">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit perferendis,
+                            provident
+                            excepturi
+                            itaque alias nemo, delectus quidem consequatur magni voluptas tempora dolorem quisquam quos
+                            quia
+                            praesentium, quaerat officiis fugiat amet!</P>
+                    </div>
+                    <button id="myButton1" onclick="ShowHideInfo()" class="btn btn-warning">Ocultar Info</button>
+                </div>
+                <div class="col-4 center">
+                    <img src="img/team.png" alt="" class="img-3">
+                    <div id="myForm2" class="myForm2">
+                        <h5 class="transition">User Name</h5>
+                        <P class="transition">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit perferendis,
+                            provident
+                            excepturi
+                            itaque alias nemo, delectus quidem consequatur magni voluptas tempora dolorem quisquam quos
+                            quia
+                            praesentium, quaerat officiis fugiat amet!</P>
+                    </div>
+                    <button id="myButton2" onclick="ShowHidediv()" class="btn btn-warning">Ocultar Info</button>
+                </div>
+                <div class="col-4 center">
+                    <img src="img/team.png" alt="" class="img-3">
+                    <div id="myForm3" class="myForm3">
+                        <h5 class="transition">User Name</h5>
+                        <P class="transition">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit perferendis,
+                            providentexcepturi
+                            itaque alias nemo, delectus quidem consequatur magni voluptas tempora dolorem quisquam quos
+                            quia
+                            praesentium, quaerat officiis fugiat amet!</P>
+                    </div>
+                    <button id="myButton3" onclick="ShowHide()" class="btn btn-warning">Ocultar Info</button>
+                </div>
+            </div>
+            <div class="card mb-4">
+                <div class="row no-gutters">
+                    <div class="col-md-4">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This content is a little bit longer.</p>
+                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="img/team.png" width="250px" alt="...">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="container footer">
+            <div>
+                <img class="redes" src="icons/twitter.png" alt="">
+                <img class="redes" src="icons/facebook.png" alt="">
+                <img class="redes" src="icons/instagram1.png" alt="">
+            </div>
+            <div class="redesparrafos">
+                <p>&copy; YokuStudios 2022</p>
+                <p>info@yokustudios.net</p>
+                <p>cel 87261983</p>
+            </div>
+        </footer>
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+</body>
+
+</html>

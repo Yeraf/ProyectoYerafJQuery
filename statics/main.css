@@ -1,0 +1,195 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+:root {
+    --color-default: #1d2d50;
+    --color-back-ground: #e1eee6;
+    --color-fondo: #c1d2d6;
+    --color-login: #007495;
+}
+
+body {
+    background-color: var(--color-back-ground);
+}
+
+.main-container {
+    width: 100%;
+}
+
+.title {
+    text-align: left;
+    font-size: 30px;
+}
+
+.parrafos {
+    text-align: left;
+    font-size: 20px;
+}
+
+.boton-api {
+    display: flex;
+    align-items: left;
+}
+
+.nav-link:hover {
+    color: blanchedalmond;
+}
+
+.img-3 {
+    width: 260px;
+    height: 200px;
+}
+
+.center {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.users {
+    background-color: var(--color-fondo);
+}
+
+.formulario {
+    width: 100%;
+    height: 500px;
+    background: url(/img/selva.jpg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 3px;
+}
+
+.contenedor {
+    width: 100%;
+    padding: 15px;
+}
+
+.formulariocentro {
+    width: 50%;
+    background: #ffff;
+    margin: auto;
+    margin-top: 40px;
+    padding: 3px;
+    border-radius: 20px;
+}
+
+.title {
+    text-align: center;
+    color: #414040;
+    font-size: 30px;
+}
+
+.inputlogin {
+    font-size: 15px;
+    width: 90%;
+    padding: 2px;
+    margin-left: 8px;
+    /*border: none;*/
+}
+
+.input-contenedor {
+    margin-bottom: 10px;
+    /*border: 1px solid #aaa;*/
+}
+
+.icon {
+    text-align: center;
+    margin-left: 5px;
+}
+
+.button {
+    width: 100%;
+}
+
+.parrafo {
+    text-align: center;
+    padding-top: 10px;
+    margin: 0px 0px 5px;
+}
+
+.formcontact.needs-validation {
+    width: 100%;
+    height: 500px;
+    background: #007495;
+    background: url(/img/Nature.jpg) no-repeat;
+    background-size: cover;
+}
+
+.formcontact2 {
+    margin: auto;
+    padding-top: 30px;
+    width: 70%;
+}
+
+.form-control {
+    width: 100%;
+}
+
+.card.mb-4 {
+    height: 400px;
+    align-items: center;
+    text-align: center;
+    background-color: var(--color-fondo);
+    border: none;
+    padding-top: 90px;
+    
+}
+
+.footer {
+    padding: 1em 0;
+    text-align: center;
+    bottom: 0%;
+    width: 100%;
+    background-color: #1d2d50;
+}
+
+.col-md-4 {
+    margin-left: 90px;
+}
+
+.mb-4, .my-4 {
+    margin-bottom: 0rem!important;
+}
+
+.redes {
+    width: 30px;
+    
+}
+
+.redesparrafos {
+    padding-top: 10px;
+    color: white;
+}
+
+.img-random {
+    
+    display: block;
+    align-items: center;
+    text-align: center;
+    margin-left: 36%;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.modal-body {
+    text-align: center;
+}
+
+.icons-user {
+    width: 30px;
+    margin-left: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
