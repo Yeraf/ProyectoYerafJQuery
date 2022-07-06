@@ -18,6 +18,12 @@ body {
     width: 100%;
 }
 
+.body-main {
+    background: url(/img/bluedark.jpg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
 .title {
     text-align: left;
     font-size: 30px;
@@ -190,6 +196,10 @@ body {
     margin-left: 10px;
 }
 
+.login-main {
+    background: url(/img/texture-grey.jpg) no-repeat;
+    background-size: cover;
+}
 
 
 
