@@ -105,8 +105,10 @@ const URL = "https://randomuser.me/api";
         modal.innerHTML =
          `
         <img class="img-random" src="${data.results[0].picture.large}" alt="team">
-  
-        <p>Email</p>
+        <p>My name is ${data.results[0].name.first}</p>
+        <p>My email is</p>
+        <p>${data.results[0].email}</p>
+
         <img class="icons-user email" src="icons/email.png" onclick="ShowHideemail" alt="" id="icons-user"><a href="" class="showEmail" id="showEmail"></a>
         <img class="icons-user" src="icons/facebook.png" alt="">
         <img class="icons-user" src="icons/instagram.png" alt="">

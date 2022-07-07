@@ -147,7 +147,7 @@ body {
     text-align: center;
     background-color: var(--color-fondo);
     border: none;
-    padding-top: 90px;
+    padding-top: 60px;
     
 }
 
@@ -201,14 +201,11 @@ body {
     background-size: cover;
 }
 
-
-
-
-
-
-
-
-
-
-
+.card.mb-6 {
+    background-color: var(--color-fondo);
+    border: none;
+    align-items: baseline;
+    width: 100%;
+    align-items: center;
+}
 
