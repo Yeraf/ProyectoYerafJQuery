@@ -46,6 +46,11 @@ body {
 .img-3 {
     width: 260px;
     height: 200px;
+    margin-top: 5px;
+}
+
+.transition {
+    margin-top: 20px;
 }
 
 .center {
@@ -82,8 +87,8 @@ body {
 
 .title {
     text-align: center;
-    color: #414040;
-    font-size: 30px;
+    color: #fcec09;
+    font-size: 40px;
 }
 
 .inputlogin {
@@ -129,8 +134,6 @@ body {
     font-size: 25px;
 }
 
-
-
 .formcontact2 {
     margin: auto;
     padding-top: 30px;
@@ -161,7 +164,12 @@ body {
 
 .col-md-4 {
     margin-left: 90px;
+    margin-top: 70px;
 }
+
+.col-md-4.user {
+    margin-top: 20px;
+} 
 
 .mb-4, .my-4 {
     margin-bottom: 0rem!important;
